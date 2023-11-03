@@ -1,0 +1,23 @@
+src/main/java/test/VacationPackageCostEstimator.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/test/VacationPackageCostEstimator.java:3:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/test/VacationPackageCostEstimator.java:6:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/test/VacationPackageCostEstimator.java:6:	CyclomaticComplexity:	CyclomaticComplexity: The method 'main(String[])' has a cyclomatic complexity of 11.
+src/main/java/test/VacationPackageCostEstimator.java:6:	NPathComplexity:	NPathComplexity: The method 'main(String[])' has an NPath complexity of 288, current threshold is 200
+src/main/java/test/VacationPackageCostEstimator.java:8:	CloseResource:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/main/java/test/VacationPackageCostEstimator.java:8:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'scanner' could be declared final
+src/main/java/test/VacationPackageCostEstimator.java:10:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/test/VacationPackageCostEstimator.java:13:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/test/VacationPackageCostEstimator.java:14:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'destination' could be declared final
+src/main/java/test/VacationPackageCostEstimator.java:17:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/test/VacationPackageCostEstimator.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'numberOfTravelers' could be declared final
+src/main/java/test/VacationPackageCostEstimator.java:21:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/test/VacationPackageCostEstimator.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'duration' could be declared final
+src/main/java/test/VacationPackageCostEstimator.java:31:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/test/VacationPackageCostEstimator.java:33:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/test/VacationPackageCostEstimator.java:41:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/main/java/test/VacationPackageCostEstimator.java:46:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/main/java/test/VacationPackageCostEstimator.java:56:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/main/java/test/VacationPackageCostEstimator.java:57:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/test/VacationPackageCostEstimator.java:62:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'totalCost' could be declared final
+src/main/java/test/VacationPackageCostEstimator.java:66:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/test/VacationPackageCostEstimator.java:68:	SystemPrintln:	SystemPrintln: Usage of System.out/err

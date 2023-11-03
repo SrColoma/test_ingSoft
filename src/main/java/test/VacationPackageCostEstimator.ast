@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<CompilationUnit BeginColumn='1' BeginLine='1' EndColumn='3' EndLine='71' Image='' PackageName='test'>
+    <PackageDeclaration BeginColumn='1' BeginLine='1' EndColumn='14' EndLine='1' Image='' Name='test'>
+        <ModifierList BeginColumn='1' BeginLine='1' EndColumn='1' EndLine='1' Image='' />
+    </PackageDeclaration>
+    <ImportDeclaration BeginColumn='1' BeginLine='2' EndColumn='26' EndLine='2' Image='' ImportOnDemand='false' ImportedName='java.util.Scanner' ImportedSimpleName='Scanner' PackageName='java.util' Static='false' />
+    <ClassOrInterfaceDeclaration Abstract='false' Annotation='false' Anonymous='false' BeginColumn='8' BeginLine='3' BinaryName='test.VacationPackageCostEstimator' CanonicalName='test.VacationPackageCostEstimator' EffectiveVisibility='public' EndColumn='13' EndLine='3' Enum='false' Final='false' Image='VacationPackageCostEstimator' Interface='false' Local='false' Native='false' Nested='false' PackageName='test' PackagePrivate='false' Private='false' Protected='false' Public='true' Record='false' RegularClass='true' RegularInterface='false' SimpleName='VacationPackageCostEstimator' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='true' SyntacticallyStatic='false' TopLevel='true' Transient='false' Visibility='public' Volatile='false'>
+        <ModifierList BeginColumn='1' BeginLine='3' EndColumn='7' EndLine='3' Image='' />
+        <ClassOrInterfaceBody BeginColumn='43' BeginLine='3' Empty='false' EndColumn='2' EndLine='71' Image='' Size='1'>
+            <MethodDeclaration Abstract='false' Arity='1' BeginColumn='24' BeginLine='6' EffectiveVisibility='public' EndColumn='28' EndLine='6' Final='false' Image='main' MainMethod='true' MethodName='main' Name='main' Native='false' Overridden='false' PackagePrivate='false' Private='false' Protected='false' Public='true' Static='true' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='true' SyntacticallyStatic='true' Transient='false' Varargs='false' Visibility='public' Void='true' Volatile='false'>
+                <ModifierList BeginColumn='5' BeginLine='6' EndColumn='18' EndLine='6' Image='' />
+                <VoidType ArrayDepth='0' ArrayType='false' BeginColumn='19' BeginLine='6' ClassOrInterfaceType='false' EndColumn='23' EndLine='6' Image='' PrimitiveType='false' TypeImage='void' />
+                <FormalParameters BeginColumn='28' BeginLine='6' Empty='false' EndColumn='43' EndLine='6' Image='' Size='1'>
+                    <FormalParameter Abstract='false' BeginColumn='29' BeginLine='6' EffectiveVisibility='local' EndColumn='42' EndLine='6' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' Varargs='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='29' BeginLine='6' EndColumn='29' EndLine='6' Image='' />
+                        <ArrayType ArrayDepth='1' ArrayType='true' BeginColumn='29' BeginLine='6' ClassOrInterfaceType='false' EndColumn='37' EndLine='6' Image='' PrimitiveType='false' TypeImage='String[]'>
+                            <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='29' BeginLine='6' ClassOrInterfaceType='true' EndColumn='35' EndLine='6' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='String' TypeImage='String' />
+                            <ArrayDimensions BeginColumn='35' BeginLine='6' Empty='false' EndColumn='37' EndLine='6' Image='' Size='1'>
+                                <ArrayTypeDim BeginColumn='35' BeginLine='6' EndColumn='37' EndLine='6' Image='' Varargs='false' />
+                            </ArrayDimensions>
+                        </ArrayType>
+                        <VariableDeclaratorId Abstract='false' ArrayType='true' BeginColumn='38' BeginLine='6' EffectiveVisibility='local' EndColumn='42' EndLine='6' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='true' Image='args' LambdaParameter='false' LocalVariable='false' Name='args' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='args' Visibility='local' Volatile='false' />
+                    </FormalParameter>
+                </FormalParameters>
+                <Block BeginColumn='44' BeginLine='6' Empty='false' EndColumn='6' EndLine='70' Image='' Size='18' containsComment='false'>
+                    <LocalVariableDeclaration Abstract='false' BeginColumn='17' BeginLine='8' EffectiveVisibility='local' EndColumn='24' EndLine='8' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='9' BeginLine='8' EndColumn='9' EndLine='8' Image='' />
+                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='8' ClassOrInterfaceType='true' EndColumn='16' EndLine='8' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='Scanner' TypeImage='Scanner' />
+                        <VariableDeclarator BeginColumn='17' BeginLine='8' EndColumn='49' EndLine='8' Image='' Initializer='true' Name='scanner'>
+                            <VariableDeclaratorId Abstract='false' ArrayType='false' BeginColumn='17' BeginLine='8' EffectiveVisibility='local' EndColumn='24' EndLine='8' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='scanner' LambdaParameter='false' LocalVariable='true' Name='scanner' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='scanner' Visibility='local' Volatile='false' />
+                            <ConstructorCall AnonymousClass='false' BeginColumn='27' BeginLine='8' CompileTimeConstant='false' DiamondTypeArgs='false' EndColumn='49' EndLine='8' Expression='true' Image='' MethodName='new' ParenthesisDepth='0' Parenthesized='false' QualifiedInstanceCreation='false'>
+                                <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='31' BeginLine='8' ClassOrInterfaceType='true' EndColumn='38' EndLine='8' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='Scanner' TypeImage='Scanner' />
+                                <ArgumentList BeginColumn='38' BeginLine='8' Empty='false' EndColumn='49' EndLine='8' Image='' Size='1'>
+                                    <FieldAccess AccessType='READ' BeginColumn='39' BeginLine='8' CompileTimeConstant='false' EndColumn='48' EndLine='8' Expression='true' Image='in' Name='in' ParenthesisDepth='0' Parenthesized='false'>
+                                        <TypeExpression BeginColumn='39' BeginLine='8' CompileTimeConstant='false' EndColumn='45' EndLine='8' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                            <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='39' BeginLine='8' ClassOrInterfaceType='true' EndColumn='45' EndLine='8' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='System' TypeImage='System' />
+                                        </TypeExpression>
+                                    </FieldAccess>
+                                </ArgumentList>
+                            </ConstructorCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='9' BeginLine='10' EndColumn='78' EndLine='10' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='10' CompileTimeConstant='false' EndColumn='77' EndLine='10' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='10' CompileTimeConstant='false' EndColumn='19' EndLine='10' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='10' CompileTimeConstant='false' EndColumn='15' EndLine='10' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='10' ClassOrInterfaceType='true' EndColumn='15' EndLine='10' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='System' TypeImage='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='10' Empty='false' EndColumn='77' EndLine='10' Image='' Size='1'>
+                                <StringLiteral BeginColumn='28' BeginLine='10' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='Welcome to the Vacation Package Cost Estimator' DoubleLiteral='false' Empty='false' EndColumn='76' EndLine='10' Expression='true' FloatLiteral='false' Image='"Welcome to the Vacation Package Cost Estimator"' IntLiteral='false' Length='46' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='13' EndColumn='98' EndLine='13' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='13' CompileTimeConstant='false' EndColumn='97' EndLine='13' Expression='true' Image='print' MethodName='print' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='13' CompileTimeConstant='false' EndColumn='19' EndLine='13' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='13' CompileTimeConstant='false' EndColumn='15' EndLine='13' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='13' ClassOrInterfaceType='true' EndColumn='15' EndLine='13' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='System' TypeImage='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='25' BeginLine='13' Empty='false' EndColumn='97' EndLine='13' Image='' Size='1'>
+                                <StringLiteral BeginColumn='26' BeginLine='13' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='Enter the destination of the vacation (e.g., Paris, New York City): ' DoubleLiteral='false' Empty='false' EndColumn='96' EndLine='13' Expression='true' FloatLiteral='false' Image='"Enter the destination of the vacation (e.g., Paris, New York City): "' IntLiteral='false' Length='68' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <LocalVariableDeclaration Abstract='false' BeginColumn='16' BeginLine='14' EffectiveVisibility='local' EndColumn='27' EndLine='14' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='9' BeginLine='14' EndColumn='9' EndLine='14' Image='' />
+                        <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='14' ClassOrInterfaceType='true' EndColumn='15' EndLine='14' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='String' TypeImage='String' />
+                        <VariableDeclarator BeginColumn='16' BeginLine='14' EndColumn='48' EndLine='14' Image='' Initializer='true' Name='destination'>
+                            <VariableDeclaratorId Abstract='false' ArrayType='false' BeginColumn='16' BeginLine='14' EffectiveVisibility='local' EndColumn='27' EndLine='14' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='destination' LambdaParameter='false' LocalVariable='true' Name='destination' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='destination' Visibility='local' Volatile='false' />
+                            <MethodCall BeginColumn='30' BeginLine='14' CompileTimeConstant='false' EndColumn='48' EndLine='14' Expression='true' Image='nextLine' MethodName='nextLine' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='30' BeginLine='14' CompileTimeConstant='false' EndColumn='37' EndLine='14' Expression='true' Image='scanner' Name='scanner' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='46' BeginLine='14' Empty='true' EndColumn='48' EndLine='14' Image='' Size='0' />
+                            </MethodCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='9' BeginLine='17' EndColumn='61' EndLine='17' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='17' CompileTimeConstant='false' EndColumn='60' EndLine='17' Expression='true' Image='print' MethodName='print' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='17' CompileTimeConstant='false' EndColumn='19' EndLine='17' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='17' CompileTimeConstant='false' EndColumn='15' EndLine='17' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='17' ClassOrInterfaceType='true' EndColumn='15' EndLine='17' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='System' TypeImage='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='25' BeginLine='17' Empty='false' EndColumn='60' EndLine='17' Image='' Size='1'>
+                                <StringLiteral BeginColumn='26' BeginLine='17' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='Enter the number of travelers: ' DoubleLiteral='false' Empty='false' EndColumn='59' EndLine='17' Expression='true' FloatLiteral='false' Image='"Enter the number of travelers: "' IntLiteral='false' Length='31' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <LocalVariableDeclaration Abstract='false' BeginColumn='13' BeginLine='18' EffectiveVisibility='local' EndColumn='30' EndLine='18' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='9' BeginLine='18' EndColumn='9' EndLine='18' Image='' />
+                        <PrimitiveType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='18' ClassOrInterfaceType='false' EndColumn='12' EndLine='18' Image='' Kind='int' PrimitiveType='true' TypeImage='int' />
+                        <VariableDeclarator BeginColumn='13' BeginLine='18' EndColumn='50' EndLine='18' Image='' Initializer='true' Name='numberOfTravelers'>
+                            <VariableDeclaratorId Abstract='false' ArrayType='false' BeginColumn='13' BeginLine='18' EffectiveVisibility='local' EndColumn='30' EndLine='18' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='numberOfTravelers' LambdaParameter='false' LocalVariable='true' Name='numberOfTravelers' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='numberOfTravelers' Visibility='local' Volatile='false' />
+                            <MethodCall BeginColumn='33' BeginLine='18' CompileTimeConstant='false' EndColumn='50' EndLine='18' Expression='true' Image='nextInt' MethodName='nextInt' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='33' BeginLine='18' CompileTimeConstant='false' EndColumn='40' EndLine='18' Expression='true' Image='scanner' Name='scanner' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='48' BeginLine='18' Empty='true' EndColumn='50' EndLine='18' Image='' Size='0' />
+                            </MethodCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='9' BeginLine='21' EndColumn='74' EndLine='21' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='21' CompileTimeConstant='false' EndColumn='73' EndLine='21' Expression='true' Image='print' MethodName='print' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='21' CompileTimeConstant='false' EndColumn='19' EndLine='21' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='21' CompileTimeConstant='false' EndColumn='15' EndLine='21' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='21' ClassOrInterfaceType='true' EndColumn='15' EndLine='21' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='System' TypeImage='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='25' BeginLine='21' Empty='false' EndColumn='73' EndLine='21' Image='' Size='1'>
+                                <StringLiteral BeginColumn='26' BeginLine='21' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='Enter the duration of the vacation in days: ' DoubleLiteral='false' Empty='false' EndColumn='72' EndLine='21' Expression='true' FloatLiteral='false' Image='"Enter the duration of the vacation in days: "' IntLiteral='false' Length='44' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <LocalVariableDeclaration Abstract='false' BeginColumn='13' BeginLine='22' EffectiveVisibility='local' EndColumn='21' EndLine='22' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='9' BeginLine='22' EndColumn='9' EndLine='22' Image='' />
+                        <PrimitiveType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='22' ClassOrInterfaceType='false' EndColumn='12' EndLine='22' Image='' Kind='int' PrimitiveType='true' TypeImage='int' />
+                        <VariableDeclarator BeginColumn='13' BeginLine='22' EndColumn='41' EndLine='22' Image='' Initializer='true' Name='duration'>
+                            <VariableDeclaratorId Abstract='false' ArrayType='false' BeginColumn='13' BeginLine='22' EffectiveVisibility='local' EndColumn='21' EndLine='22' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='duration' LambdaParameter='false' LocalVariable='true' Name='duration' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='duration' Visibility='local' Volatile='false' />
+                            <MethodCall BeginColumn='24' BeginLine='22' CompileTimeConstant='false' EndColumn='41' EndLine='22' Expression='true' Image='nextInt' MethodName='nextInt' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='24' BeginLine='22' CompileTimeConstant='false' EndColumn='31' EndLine='22' Expression='true' Image='scanner' Name='scanner' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='39' BeginLine='22' Empty='true' EndColumn='41' EndLine='22' Image='' Size='0' />
+                            </MethodCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='9' BeginLine='25' EndColumn='25' EndLine='25' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='25' CompileTimeConstant='false' EndColumn='24' EndLine='25' Expression='true' Image='close' MethodName='close' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='9' BeginLine='25' CompileTimeConstant='false' EndColumn='16' EndLine='25' Expression='true' Image='scanner' Name='scanner' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='22' BeginLine='25' Empty='true' EndColumn='24' EndLine='25' Image='' Size='0' />
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <LocalVariableDeclaration Abstract='false' BeginColumn='16' BeginLine='28' EffectiveVisibility='local' EndColumn='24' EndLine='28' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='9' BeginLine='28' EndColumn='9' EndLine='28' Image='' />
+                        <PrimitiveType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='28' ClassOrInterfaceType='false' EndColumn='15' EndLine='28' Image='' Kind='double' PrimitiveType='true' TypeImage='double' />
+                        <VariableDeclarator BeginColumn='16' BeginLine='28' EndColumn='31' EndLine='28' Image='' Initializer='true' Name='baseCost'>
+                            <VariableDeclaratorId Abstract='false' ArrayType='false' BeginColumn='16' BeginLine='28' EffectiveVisibility='local' EndColumn='24' EndLine='28' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='baseCost' LambdaParameter='false' LocalVariable='true' Name='baseCost' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='baseCost' Visibility='local' Volatile='false' />
+                            <NumericLiteral Base='10' BeginColumn='27' BeginLine='28' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='31' EndLine='28' Expression='true' FloatLiteral='false' Image='1000' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='1000.0' ValueAsFloat='1000.0' ValueAsInt='1000' ValueAsLong='1000' />
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <IfStatement BeginColumn='9' BeginLine='31' Else='true' EndColumn='10' EndLine='35' Image=''>
+                        <MethodCall BeginColumn='13' BeginLine='31' CompileTimeConstant='false' EndColumn='50' EndLine='31' Expression='true' Image='equalsIgnoreCase' MethodName='equalsIgnoreCase' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='13' BeginLine='31' CompileTimeConstant='false' EndColumn='24' EndLine='31' Expression='true' Image='destination' Name='destination' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='41' BeginLine='31' Empty='false' EndColumn='50' EndLine='31' Image='' Size='1'>
+                                <StringLiteral BeginColumn='42' BeginLine='31' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='Paris' DoubleLiteral='false' Empty='false' EndColumn='49' EndLine='31' Expression='true' FloatLiteral='false' Image='"Paris"' IntLiteral='false' Length='5' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                        <Block BeginColumn='52' BeginLine='31' Empty='false' EndColumn='10' EndLine='33' Image='' Size='1' containsComment='false'>
+                            <ExpressionStatement BeginColumn='13' BeginLine='32' EndColumn='29' EndLine='32' Image=''>
+                                <AssignmentExpression BeginColumn='13' BeginLine='32' CompileTimeConstant='false' Compound='true' EndColumn='28' EndLine='32' Expression='true' Image='' Operator='+=' ParenthesisDepth='0' Parenthesized='false'>
+                                    <VariableAccess AccessType='WRITE' BeginColumn='13' BeginLine='32' CompileTimeConstant='false' EndColumn='21' EndLine='32' Expression='true' Image='baseCost' Name='baseCost' ParenthesisDepth='0' Parenthesized='false' />
+                                    <NumericLiteral Base='10' BeginColumn='25' BeginLine='32' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='28' EndLine='32' Expression='true' FloatLiteral='false' Image='500' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='500.0' ValueAsFloat='500.0' ValueAsInt='500' ValueAsLong='500' />
+                                </AssignmentExpression>
+                            </ExpressionStatement>
+                        </Block>
+                        <IfStatement BeginColumn='16' BeginLine='33' Else='false' EndColumn='10' EndLine='35' Image=''>
+                            <MethodCall BeginColumn='20' BeginLine='33' CompileTimeConstant='false' EndColumn='65' EndLine='33' Expression='true' Image='equalsIgnoreCase' MethodName='equalsIgnoreCase' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='20' BeginLine='33' CompileTimeConstant='false' EndColumn='31' EndLine='33' Expression='true' Image='destination' Name='destination' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='48' BeginLine='33' Empty='false' EndColumn='65' EndLine='33' Image='' Size='1'>
+                                    <StringLiteral BeginColumn='49' BeginLine='33' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='New York City' DoubleLiteral='false' Empty='false' EndColumn='64' EndLine='33' Expression='true' FloatLiteral='false' Image='"New York City"' IntLiteral='false' Length='13' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                                </ArgumentList>
+                            </MethodCall>
+                            <Block BeginColumn='67' BeginLine='33' Empty='false' EndColumn='10' EndLine='35' Image='' Size='1' containsComment='false'>
+                                <ExpressionStatement BeginColumn='13' BeginLine='34' EndColumn='29' EndLine='34' Image=''>
+                                    <AssignmentExpression BeginColumn='13' BeginLine='34' CompileTimeConstant='false' Compound='true' EndColumn='28' EndLine='34' Expression='true' Image='' Operator='+=' ParenthesisDepth='0' Parenthesized='false'>
+                                        <VariableAccess AccessType='WRITE' BeginColumn='13' BeginLine='34' CompileTimeConstant='false' EndColumn='21' EndLine='34' Expression='true' Image='baseCost' Name='baseCost' ParenthesisDepth='0' Parenthesized='false' />
+                                        <NumericLiteral Base='10' BeginColumn='25' BeginLine='34' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='28' EndLine='34' Expression='true' FloatLiteral='false' Image='600' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='600.0' ValueAsFloat='600.0' ValueAsInt='600' ValueAsLong='600' />
+                                    </AssignmentExpression>
+                                </ExpressionStatement>
+                            </Block>
+                        </IfStatement>
+                    </IfStatement>
+                    <LocalVariableDeclaration Abstract='false' BeginColumn='16' BeginLine='38' EffectiveVisibility='local' EndColumn='24' EndLine='38' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='9' BeginLine='38' EndColumn='9' EndLine='38' Image='' />
+                        <PrimitiveType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='38' ClassOrInterfaceType='false' EndColumn='15' EndLine='38' Image='' Kind='double' PrimitiveType='true' TypeImage='double' />
+                        <VariableDeclarator BeginColumn='16' BeginLine='38' EndColumn='28' EndLine='38' Image='' Initializer='true' Name='discount'>
+                            <VariableDeclaratorId Abstract='false' ArrayType='false' BeginColumn='16' BeginLine='38' EffectiveVisibility='local' EndColumn='24' EndLine='38' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='discount' LambdaParameter='false' LocalVariable='true' Name='discount' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='discount' Visibility='local' Volatile='false' />
+                            <NumericLiteral Base='10' BeginColumn='27' BeginLine='38' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='28' EndLine='38' Expression='true' FloatLiteral='false' Image='0' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='0.0' ValueAsFloat='0.0' ValueAsInt='0' ValueAsLong='0' />
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <IfStatement BeginColumn='9' BeginLine='39' Else='true' EndColumn='10' EndLine='43' Image=''>
+                        <InfixExpression BeginColumn='13' BeginLine='39' CompileTimeConstant='false' EndColumn='61' EndLine='39' Expression='true' Image='' Operator='&amp;&amp;' ParenthesisDepth='0' Parenthesized='false'>
+                            <InfixExpression BeginColumn='13' BeginLine='39' CompileTimeConstant='false' EndColumn='34' EndLine='39' Expression='true' Image='' Operator='>' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='13' BeginLine='39' CompileTimeConstant='false' EndColumn='30' EndLine='39' Expression='true' Image='numberOfTravelers' Name='numberOfTravelers' ParenthesisDepth='0' Parenthesized='false' />
+                                <NumericLiteral Base='10' BeginColumn='33' BeginLine='39' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='34' EndLine='39' Expression='true' FloatLiteral='false' Image='4' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='4.0' ValueAsFloat='4.0' ValueAsInt='4' ValueAsLong='4' />
+                            </InfixExpression>
+                            <InfixExpression BeginColumn='38' BeginLine='39' CompileTimeConstant='false' EndColumn='61' EndLine='39' Expression='true' Image='' Operator='&amp;lt;=' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='38' BeginLine='39' CompileTimeConstant='false' EndColumn='55' EndLine='39' Expression='true' Image='numberOfTravelers' Name='numberOfTravelers' ParenthesisDepth='0' Parenthesized='false' />
+                                <NumericLiteral Base='10' BeginColumn='59' BeginLine='39' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='61' EndLine='39' Expression='true' FloatLiteral='false' Image='10' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='10.0' ValueAsFloat='10.0' ValueAsInt='10' ValueAsLong='10' />
+                            </InfixExpression>
+                        </InfixExpression>
+                        <Block BeginColumn='63' BeginLine='39' Empty='false' EndColumn='10' EndLine='41' Image='' Size='1' containsComment='false'>
+                            <ExpressionStatement BeginColumn='13' BeginLine='40' EndColumn='28' EndLine='40' Image=''>
+                                <AssignmentExpression BeginColumn='13' BeginLine='40' CompileTimeConstant='false' Compound='false' EndColumn='27' EndLine='40' Expression='true' Image='' Operator='=' ParenthesisDepth='0' Parenthesized='false'>
+                                    <VariableAccess AccessType='WRITE' BeginColumn='13' BeginLine='40' CompileTimeConstant='false' EndColumn='21' EndLine='40' Expression='true' Image='discount' Name='discount' ParenthesisDepth='0' Parenthesized='false' />
+                                    <NumericLiteral Base='10' BeginColumn='24' BeginLine='40' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='true' EndColumn='27' EndLine='40' Expression='true' FloatLiteral='false' Image='0.1' IntLiteral='false' Integral='false' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='0.1' ValueAsFloat='0.1' ValueAsInt='0' ValueAsLong='0' />
+                                </AssignmentExpression>
+                            </ExpressionStatement>
+                        </Block>
+                        <IfStatement BeginColumn='16' BeginLine='41' Else='false' EndColumn='10' EndLine='43' Image=''>
+                            <InfixExpression BeginColumn='20' BeginLine='41' CompileTimeConstant='false' EndColumn='42' EndLine='41' Expression='true' Image='' Operator='>' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='20' BeginLine='41' CompileTimeConstant='false' EndColumn='37' EndLine='41' Expression='true' Image='numberOfTravelers' Name='numberOfTravelers' ParenthesisDepth='0' Parenthesized='false' />
+                                <NumericLiteral Base='10' BeginColumn='40' BeginLine='41' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='42' EndLine='41' Expression='true' FloatLiteral='false' Image='10' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='10.0' ValueAsFloat='10.0' ValueAsInt='10' ValueAsLong='10' />
+                            </InfixExpression>
+                            <Block BeginColumn='44' BeginLine='41' Empty='false' EndColumn='10' EndLine='43' Image='' Size='1' containsComment='false'>
+                                <ExpressionStatement BeginColumn='13' BeginLine='42' EndColumn='28' EndLine='42' Image=''>
+                                    <AssignmentExpression BeginColumn='13' BeginLine='42' CompileTimeConstant='false' Compound='false' EndColumn='27' EndLine='42' Expression='true' Image='' Operator='=' ParenthesisDepth='0' Parenthesized='false'>
+                                        <VariableAccess AccessType='WRITE' BeginColumn='13' BeginLine='42' CompileTimeConstant='false' EndColumn='21' EndLine='42' Expression='true' Image='discount' Name='discount' ParenthesisDepth='0' Parenthesized='false' />
+                                        <NumericLiteral Base='10' BeginColumn='24' BeginLine='42' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='true' EndColumn='27' EndLine='42' Expression='true' FloatLiteral='false' Image='0.2' IntLiteral='false' Integral='false' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='0.2' ValueAsFloat='0.2' ValueAsInt='0' ValueAsLong='0' />
+                                    </AssignmentExpression>
+                                </ExpressionStatement>
+                            </Block>
+                        </IfStatement>
+                    </IfStatement>
+                    <IfStatement BeginColumn='9' BeginLine='46' Else='false' EndColumn='10' EndLine='48' Image=''>
+                        <InfixExpression BeginColumn='13' BeginLine='46' CompileTimeConstant='false' EndColumn='25' EndLine='46' Expression='true' Image='' Operator='&amp;lt;' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='13' BeginLine='46' CompileTimeConstant='false' EndColumn='21' EndLine='46' Expression='true' Image='duration' Name='duration' ParenthesisDepth='0' Parenthesized='false' />
+                            <NumericLiteral Base='10' BeginColumn='24' BeginLine='46' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='25' EndLine='46' Expression='true' FloatLiteral='false' Image='7' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='7.0' ValueAsFloat='7.0' ValueAsInt='7' ValueAsLong='7' />
+                        </InfixExpression>
+                        <Block BeginColumn='27' BeginLine='46' Empty='false' EndColumn='10' EndLine='48' Image='' Size='1' containsComment='false'>
+                            <ExpressionStatement BeginColumn='13' BeginLine='47' EndColumn='29' EndLine='47' Image=''>
+                                <AssignmentExpression BeginColumn='13' BeginLine='47' CompileTimeConstant='false' Compound='true' EndColumn='28' EndLine='47' Expression='true' Image='' Operator='+=' ParenthesisDepth='0' Parenthesized='false'>
+                                    <VariableAccess AccessType='WRITE' BeginColumn='13' BeginLine='47' CompileTimeConstant='false' EndColumn='21' EndLine='47' Expression='true' Image='baseCost' Name='baseCost' ParenthesisDepth='0' Parenthesized='false' />
+                                    <NumericLiteral Base='10' BeginColumn='25' BeginLine='47' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='28' EndLine='47' Expression='true' FloatLiteral='false' Image='200' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='200.0' ValueAsFloat='200.0' ValueAsInt='200' ValueAsLong='200' />
+                                </AssignmentExpression>
+                            </ExpressionStatement>
+                        </Block>
+                    </IfStatement>
+                    <IfStatement BeginColumn='9' BeginLine='51' Else='false' EndColumn='10' EndLine='53' Image=''>
+                        <InfixExpression BeginColumn='13' BeginLine='51' CompileTimeConstant='false' EndColumn='52' EndLine='51' Expression='true' Image='' Operator='||' ParenthesisDepth='0' Parenthesized='false'>
+                            <InfixExpression BeginColumn='13' BeginLine='51' CompileTimeConstant='false' EndColumn='26' EndLine='51' Expression='true' Image='' Operator='>' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='13' BeginLine='51' CompileTimeConstant='false' EndColumn='21' EndLine='51' Expression='true' Image='duration' Name='duration' ParenthesisDepth='0' Parenthesized='false' />
+                                <NumericLiteral Base='10' BeginColumn='24' BeginLine='51' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='26' EndLine='51' Expression='true' FloatLiteral='false' Image='30' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='30.0' ValueAsFloat='30.0' ValueAsInt='30' ValueAsLong='30' />
+                            </InfixExpression>
+                            <InfixExpression BeginColumn='30' BeginLine='51' CompileTimeConstant='false' EndColumn='52' EndLine='51' Expression='true' Image='' Operator='==' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='30' BeginLine='51' CompileTimeConstant='false' EndColumn='47' EndLine='51' Expression='true' Image='numberOfTravelers' Name='numberOfTravelers' ParenthesisDepth='0' Parenthesized='false' />
+                                <NumericLiteral Base='10' BeginColumn='51' BeginLine='51' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='52' EndLine='51' Expression='true' FloatLiteral='false' Image='2' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='2.0' ValueAsFloat='2.0' ValueAsInt='2' ValueAsLong='2' />
+                            </InfixExpression>
+                        </InfixExpression>
+                        <Block BeginColumn='54' BeginLine='51' Empty='false' EndColumn='10' EndLine='53' Image='' Size='1' containsComment='false'>
+                            <ExpressionStatement BeginColumn='13' BeginLine='52' EndColumn='29' EndLine='52' Image=''>
+                                <AssignmentExpression BeginColumn='13' BeginLine='52' CompileTimeConstant='false' Compound='true' EndColumn='28' EndLine='52' Expression='true' Image='' Operator='-=' ParenthesisDepth='0' Parenthesized='false'>
+                                    <VariableAccess AccessType='WRITE' BeginColumn='13' BeginLine='52' CompileTimeConstant='false' EndColumn='21' EndLine='52' Expression='true' Image='baseCost' Name='baseCost' ParenthesisDepth='0' Parenthesized='false' />
+                                    <NumericLiteral Base='10' BeginColumn='25' BeginLine='52' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='28' EndLine='52' Expression='true' FloatLiteral='false' Image='200' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='200.0' ValueAsFloat='200.0' ValueAsInt='200' ValueAsLong='200' />
+                                </AssignmentExpression>
+                            </ExpressionStatement>
+                        </Block>
+                    </IfStatement>
+                    <IfStatement BeginColumn='9' BeginLine='56' Else='false' EndColumn='10' EndLine='59' Image=''>
+                        <InfixExpression BeginColumn='13' BeginLine='56' CompileTimeConstant='false' EndColumn='35' EndLine='56' Expression='true' Image='' Operator='>' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='13' BeginLine='56' CompileTimeConstant='false' EndColumn='30' EndLine='56' Expression='true' Image='numberOfTravelers' Name='numberOfTravelers' ParenthesisDepth='0' Parenthesized='false' />
+                            <NumericLiteral Base='10' BeginColumn='33' BeginLine='56' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='35' EndLine='56' Expression='true' FloatLiteral='false' Image='80' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='80.0' ValueAsFloat='80.0' ValueAsInt='80' ValueAsLong='80' />
+                        </InfixExpression>
+                        <Block BeginColumn='37' BeginLine='56' Empty='false' EndColumn='10' EndLine='59' Image='' Size='2' containsComment='false'>
+                            <ExpressionStatement BeginColumn='13' BeginLine='57' EndColumn='109' EndLine='57' Image=''>
+                                <MethodCall BeginColumn='13' BeginLine='57' CompileTimeConstant='false' EndColumn='108' EndLine='57' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                                    <FieldAccess AccessType='READ' BeginColumn='13' BeginLine='57' CompileTimeConstant='false' EndColumn='23' EndLine='57' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                        <TypeExpression BeginColumn='13' BeginLine='57' CompileTimeConstant='false' EndColumn='19' EndLine='57' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                            <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='13' BeginLine='57' ClassOrInterfaceType='true' EndColumn='19' EndLine='57' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='System' TypeImage='System' />
+                                        </TypeExpression>
+                                    </FieldAccess>
+                                    <ArgumentList BeginColumn='31' BeginLine='57' Empty='false' EndColumn='108' EndLine='57' Image='' Size='1'>
+                                        <StringLiteral BeginColumn='32' BeginLine='57' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='The vacation package is not available for groups of more than 80 persons.' DoubleLiteral='false' Empty='false' EndColumn='107' EndLine='57' Expression='true' FloatLiteral='false' Image='"The vacation package is not available for groups of more than 80 persons."' IntLiteral='false' Length='73' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                                    </ArgumentList>
+                                </MethodCall>
+                            </ExpressionStatement>
+                            <ReturnStatement BeginColumn='13' BeginLine='58' EndColumn='20' EndLine='58' Image='' />
+                        </Block>
+                    </IfStatement>
+                    <LocalVariableDeclaration Abstract='false' BeginColumn='16' BeginLine='62' EffectiveVisibility='local' EndColumn='25' EndLine='62' Final='false' Image='' Native='false' PackagePrivate='false' Private='false' Protected='false' Public='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' Visibility='local' Volatile='false'>
+                        <ModifierList BeginColumn='9' BeginLine='62' EndColumn='9' EndLine='62' Image='' />
+                        <PrimitiveType ArrayDepth='0' ArrayType='false' BeginColumn='9' BeginLine='62' ClassOrInterfaceType='false' EndColumn='15' EndLine='62' Image='' Kind='double' PrimitiveType='true' TypeImage='double' />
+                        <VariableDeclarator BeginColumn='16' BeginLine='62' EndColumn='60' EndLine='62' Image='' Initializer='true' Name='totalCost'>
+                            <VariableDeclaratorId Abstract='false' ArrayType='false' BeginColumn='16' BeginLine='62' EffectiveVisibility='local' EndColumn='25' EndLine='62' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='totalCost' LambdaParameter='false' LocalVariable='true' Name='totalCost' Native='false' PackagePrivate='false' PatternBinding='false' Private='false' Protected='false' Public='false' RecordComponent='false' ResourceDeclaration='false' Static='false' Strictfp='false' Synchronized='false' SyntacticallyAbstract='false' SyntacticallyFinal='false' SyntacticallyPublic='false' SyntacticallyStatic='false' Transient='false' TypeInferred='false' VariableName='totalCost' Visibility='local' Volatile='false' />
+                            <InfixExpression BeginColumn='28' BeginLine='62' CompileTimeConstant='false' EndColumn='60' EndLine='62' Expression='true' Image='' Operator='-' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='28' BeginLine='62' CompileTimeConstant='false' EndColumn='36' EndLine='62' Expression='true' Image='baseCost' Name='baseCost' ParenthesisDepth='0' Parenthesized='false' />
+                                <InfixExpression BeginColumn='39' BeginLine='62' CompileTimeConstant='false' EndColumn='60' EndLine='62' Expression='true' Image='' Operator='*' ParenthesisDepth='1' Parenthesized='true'>
+                                    <VariableAccess AccessType='READ' BeginColumn='40' BeginLine='62' CompileTimeConstant='false' EndColumn='48' EndLine='62' Expression='true' Image='baseCost' Name='baseCost' ParenthesisDepth='0' Parenthesized='false' />
+                                    <VariableAccess AccessType='READ' BeginColumn='51' BeginLine='62' CompileTimeConstant='false' EndColumn='59' EndLine='62' Expression='true' Image='discount' Name='discount' ParenthesisDepth='0' Parenthesized='false' />
+                                </InfixExpression>
+                            </InfixExpression>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <IfStatement BeginColumn='9' BeginLine='65' Else='true' EndColumn='10' EndLine='69' Image=''>
+                        <InfixExpression BeginColumn='13' BeginLine='65' CompileTimeConstant='false' EndColumn='27' EndLine='65' Expression='true' Image='' Operator='>=' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='13' BeginLine='65' CompileTimeConstant='false' EndColumn='22' EndLine='65' Expression='true' Image='totalCost' Name='totalCost' ParenthesisDepth='0' Parenthesized='false' />
+                            <NumericLiteral Base='10' BeginColumn='26' BeginLine='65' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' DoubleLiteral='false' EndColumn='27' EndLine='65' Expression='true' FloatLiteral='false' Image='0' IntLiteral='true' Integral='true' LongLiteral='false' NullLiteral='false' NumericLiteral='true' ParenthesisDepth='0' Parenthesized='false' StringLiteral='false' ValueAsDouble='0.0' ValueAsFloat='0.0' ValueAsInt='0' ValueAsLong='0' />
+                        </InfixExpression>
+                        <Block BeginColumn='29' BeginLine='65' Empty='false' EndColumn='10' EndLine='67' Image='' Size='1' containsComment='false'>
+                            <ExpressionStatement BeginColumn='13' BeginLine='66' EndColumn='85' EndLine='66' Image=''>
+                                <MethodCall BeginColumn='13' BeginLine='66' CompileTimeConstant='false' EndColumn='84' EndLine='66' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                                    <FieldAccess AccessType='READ' BeginColumn='13' BeginLine='66' CompileTimeConstant='false' EndColumn='23' EndLine='66' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                        <TypeExpression BeginColumn='13' BeginLine='66' CompileTimeConstant='false' EndColumn='19' EndLine='66' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                            <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='13' BeginLine='66' ClassOrInterfaceType='true' EndColumn='19' EndLine='66' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='System' TypeImage='System' />
+                                        </TypeExpression>
+                                    </FieldAccess>
+                                    <ArgumentList BeginColumn='31' BeginLine='66' Empty='false' EndColumn='84' EndLine='66' Image='' Size='1'>
+                                        <InfixExpression BeginColumn='32' BeginLine='66' CompileTimeConstant='false' EndColumn='83' EndLine='66' Expression='true' Image='' Operator='+' ParenthesisDepth='0' Parenthesized='false'>
+                                            <StringLiteral BeginColumn='32' BeginLine='66' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='Total cost of the vacation package: $' DoubleLiteral='false' Empty='false' EndColumn='71' EndLine='66' Expression='true' FloatLiteral='false' Image='"Total cost of the vacation package: $"' IntLiteral='false' Length='37' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                                            <VariableAccess AccessType='READ' BeginColumn='74' BeginLine='66' CompileTimeConstant='false' EndColumn='83' EndLine='66' Expression='true' Image='totalCost' Name='totalCost' ParenthesisDepth='0' Parenthesized='false' />
+                                        </InfixExpression>
+                                    </ArgumentList>
+                                </MethodCall>
+                            </ExpressionStatement>
+                        </Block>
+                        <Block BeginColumn='16' BeginLine='67' Empty='false' EndColumn='10' EndLine='69' Image='' Size='1' containsComment='false'>
+                            <ExpressionStatement BeginColumn='13' BeginLine='68' EndColumn='80' EndLine='68' Image=''>
+                                <MethodCall BeginColumn='13' BeginLine='68' CompileTimeConstant='false' EndColumn='79' EndLine='68' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                                    <FieldAccess AccessType='READ' BeginColumn='13' BeginLine='68' CompileTimeConstant='false' EndColumn='23' EndLine='68' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                        <TypeExpression BeginColumn='13' BeginLine='68' CompileTimeConstant='false' EndColumn='19' EndLine='68' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                            <ClassOrInterfaceType ArrayDepth='0' ArrayType='false' BeginColumn='13' BeginLine='68' ClassOrInterfaceType='true' EndColumn='19' EndLine='68' FullyQualified='false' Image='' PrimitiveType='false' ReferenceToClassSameCompilationUnit='false' SimpleName='System' TypeImage='System' />
+                                        </TypeExpression>
+                                    </FieldAccess>
+                                    <ArgumentList BeginColumn='31' BeginLine='68' Empty='false' EndColumn='79' EndLine='68' Image='' Size='1'>
+                                        <StringLiteral BeginColumn='32' BeginLine='68' BooleanLiteral='false' CharLiteral='false' CompileTimeConstant='true' ConstValue='Invalid input. Unable to calculate the cost.' DoubleLiteral='false' Empty='false' EndColumn='78' EndLine='68' Expression='true' FloatLiteral='false' Image='"Invalid input. Unable to calculate the cost."' IntLiteral='false' Length='44' LongLiteral='false' NullLiteral='false' NumericLiteral='false' ParenthesisDepth='0' Parenthesized='false' StringLiteral='true' TextBlock='false' />
+                                    </ArgumentList>
+                                </MethodCall>
+                            </ExpressionStatement>
+                        </Block>
+                    </IfStatement>
+                </Block>
+            </MethodDeclaration>
+        </ClassOrInterfaceBody>
+    </ClassOrInterfaceDeclaration>
+</CompilationUnit>
